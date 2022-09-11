@@ -11,35 +11,47 @@
     <div class="wrapper">
             <header class="header">
                 <div class="header-container">
-                <div class="header__body">
-                    <div class="header__burger">
-                        <span></span>
-                    </div>
+                <nav class="header__body">
                 <ul class="header__list-1">
-                    <li><a href="#">For counterparties</a></li>
-                    <li><a href="#">For designers</a></li>
-                    <li><a href="#">Jobs</a></li>
+                    <li><a class = "header__body__link" href="counterparties.html">For counterparties</a></li>
+                    <li><a class = "header__body__link" href="designers.html">For designers</a></li>
+                    <li><a class = "header__body__link" href="Jobs.html">Jobs</a></li>
+                    <li class="header__login-clone"><a class = "header__body__sub__link" href="#">Login/Registration</a></li>
                 </ul>
                 <div class="logo">
                     <img src="img/logo.png" alt="">
                 </div>
                 <ul class="header__list-2">
-                    <li class="header__search"><img src="img/icons/gridicons_search.svg" alt=""><span>Search</span></li>
-                    <li class="header__login">Login/Registration</li>
-                    <li class="header__cabinet"><img src="img/icons/cabinet.svg" alt=""></li>
-                    <li class="header__liked"><img src="img/icons/icons.svg" alt=""></li>
+                    <li class="header__search"><a class = "header__body__sub__link" href="#"><img src="img/icons/gridicons_search.svg" alt=""><span>Search</span></a></li>
+                    <li class="header__login"><a class = "header__body__sub__link" href="#">Login/Registration</a></li>
+                    <div class="header__icons">
+                    <li class="header__cabinet"><a class = "header__body__sub__link" href="#"><img src="img/icons/cabinet.svg" alt=""></a></li>
+                    <li class="header__liked"><a class = "header__body__sub__link" href="#"><img src="img/icons/icons.svg" alt=""></a></li>
+                    </div>
                 </ul>
+                <ul class="socials">
+                    <li><a href="#" class="socials__youtube"><img src="img/icons/carbon_logo-youtube.svg" alt=""></a></li>
+                    <li><a href="#" class="socials__vk"><img src="img/icons/entypo-social_vk.svg" alt=""></a></li>
+                    <li><a href="#" class="socials__fb"><img src="img/icons/bx_bxl-facebook.svg" alt=""></a></li>
+                    <li><a href="#" class="socials__telegram"><img src="img/icons/bx_bxl-telegram.svg" alt=""></a></li>
+                    <li><a href="#" class="socials__etsy"><img src="img/icons/simple-icons_etsy.svg" alt=""></a></li>
+                </ul>
+                </nav>
+                <div class="header__burger">
+                    <span></span>
                 </div>
                 </div>
             </header>
         <main class="main-1">
-            <div class="main-1__content">
-                <h1>
-                    Long, expensive, rich!
-                </h1>
-                <a href="#" class="catalog">
-                    product catalog
-                </a>
+            <div class="main-1__container">
+                    <div class="main-1__content">
+                        <h1>
+                            Long, expensive, rich!
+                        </h1>
+                        <a href="#" class="catalog">
+                            product catalog
+                        </a>
+                    </div>
                 <ul class="brands">
                     <li>
                         <a class="brands__item" href="#">
@@ -79,6 +91,31 @@
                 </ul>
             </div>
         </main>
+        <main class="main-2">
+            <div class="main-2__container">
+                <div class="main-2__content">
+                    <h4>To events</h4>
+                    <h2>The real beauty is here!</h2>
+                    <ul class="main-2__events">
+                        <li class="events-wedding">wedding</li>
+                        <li class="events-husband">husband</li>
+                        <li class="events-wife">wife</li>
+                        <li class="events-partner">partner</li>
+                        <li class="events-collections">collections</li>
+                        <li class="events-rarity">rarity</li>
+                    </ul>
+                    <ul class="main-2__jewelry">
+                        <li class="jewelry-rings"><span>rings</span></li>
+                        <li class="jewelry-earrings"><span>earrings</span></li>
+                        <li class="jewelry-pendants"><span>pendants</span></li>
+                        <li class="jewelry-cufflinks"><span>cufflinks</span></li>
+                        <li class="jewelry-bracelets"><span>bracelets</span></li>
+                        <li class="jewelry-watch"><span>watch</span></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
