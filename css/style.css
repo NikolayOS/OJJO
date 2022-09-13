@@ -171,6 +171,7 @@ body._lock {
     width: 100%;
     transition: all 0.3s ease 0s;
     background-color: #fff;
+    box-shadow: 1px 1px #000;
   }
   .header__burger::before,
 .header__burger::after {
@@ -293,6 +294,7 @@ body._lock {
     height: 42px;
   }
 }
+/*-------------------------------------------------------------------*/
 .main-1 {
   background: url(../img/bgc.png) center center no-repeat;
   background-size: cover;
@@ -344,5 +346,246 @@ body._lock {
   }
   .main-1__container {
     padding: 70% 0px 0px 0px;
+  }
+}
+.main-2 {
+  color: #000;
+  background: #F9F9F9;
+}
+.main-2__container {
+  padding: 0px 7% 0px 10%;
+}
+.main-2__content {
+  padding: 100px 0px 0px 0px;
+}
+.main-2__content h4 {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+}
+.main-2__content h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+}
+.main-2__events {
+  margin: 37px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.main-2__events li {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  width: 165px;
+  height: 55px;
+  margin: 18px 18px 0px 0px;
+  border: 1px solid #D6D6D6;
+  padding: 15px 0px 0px 0px;
+}
+.main-2__events li span {
+  z-index: 2;
+  position: relative;
+}
+.main-2__events li::after {
+  content: "";
+  position: relative;
+  bottom: 42px;
+  right: 5px;
+  display: block;
+  width: 165px;
+  height: 55px;
+  background-color: #F9F9F9;
+  border: 1px solid #D6D6D6;
+}
+.main-2__jewelry {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-2__jewelry li {
+  width: 350px;
+  height: 280px;
+  margin: 0px 30px 30px 0px;
+}
+.main-2__jewelry li span {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 60% 0px 0px 0px;
+}
+
+@media (max-width: 450px) {
+  .main-2__jewelry li {
+    margin: 0px 0px 30px 0px;
+  }
+}
+.jewelry-rings {
+  background: url(../img/Rectangle1.png) center center no-repeat;
+}
+
+.jewelry-earrings {
+  background: url(../img/Rectangle2.png) center center no-repeat;
+}
+
+.jewelry-pendants {
+  background: url(../img/Rectangle3.png) center center no-repeat;
+}
+
+.jewelry-cufflinks {
+  background: url(../img/Rectangle4.png) center center no-repeat;
+}
+
+.jewelry-bracelets {
+  background: url(../img/Rectangle5.png) center center no-repeat;
+}
+
+.jewelry-watch {
+  background: url(../img/Rectangle6.png) center center no-repeat;
+}
+
+@media (max-width: 920px) {
+  .main-2__container {
+    padding: 0px 0px 0px 30px;
+  }
+}
+/*-------------------------------------------------------*/
+.our-stores {
+  margin: 100px 0px 0px 0px;
+  background: url(../img/RectBG.png) 0 0;
+  color: #FFFFFF;
+}
+.our-stores__content {
+  padding: 100px 10%;
+  margin: 0 auto;
+}
+.our-stores__content h5 {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+}
+.our-stores__content h3 {
+  display: block;
+  margin: 15px 0px 45px 0px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+}
+.our-stores__content p {
+  display: block;
+  margin: 0px 0px 60px 0px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.stores {
+  border: 1px solid #333333;
+  background-color: #fff;
+  width: 224px;
+  height: 51px;
+  margin: 0 auto;
+  padding: 15px 0px 0px 48px;
+}
+.stores a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+/*-------------------------------------------------------*/
+.useful-articles__container {
+  padding: 120px 0px;
+}
+.useful-articles__container h6 {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  color: #333333;
+  padding: 0px 0px 15px 0px;
+}
+.useful-articles__container h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #333333;
+}
+
+.tips {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 60px 0px 60px 30px;
+}
+.tips li {
+  width: 350px;
+  height: 370px;
+  margin: 30px 30px 0px 0px;
+  background-size: cover;
+}
+.tips li span {
+  margin: 70% 0px 0px 0px;
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.tips__item-1 {
+  background: url(../img/tips1.png) 0 0 no-repeat;
+}
+.tips__item-2 {
+  background: url(../img/tips2.png) 0 0 no-repeat;
+}
+.tips__item-3 {
+  background: url(../img/tips3.png) 0 0 no-repeat;
+}
+
+.our-blog {
+  margin: 0 auto;
+  width: 255px;
+  height: 51px;
+  background: #333333;
+  border: 1px solid #FFFFFF;
+  padding: 15px 35px;
+}
+.our-blog a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media (max-width: 450px) {
+  .tips li {
+    margin: 30px 0px 0px 0px;
   }
 }
