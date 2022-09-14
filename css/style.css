@@ -415,6 +415,10 @@ body._lock {
   width: 350px;
   height: 280px;
   margin: 0px 30px 30px 0px;
+  background-size: cover;
+}
+.main-2__jewelry li a {
+  display: block;
 }
 .main-2__jewelry li span {
   display: block;
@@ -457,11 +461,6 @@ body._lock {
   background: url(../img/Rectangle6.png) center center no-repeat;
 }
 
-@media (max-width: 920px) {
-  .main-2__container {
-    padding: 0px 0px 0px 30px;
-  }
-}
 /*-------------------------------------------------------*/
 .our-stores {
   margin: 100px 0px 0px 0px;
@@ -587,5 +586,162 @@ body._lock {
 @media (max-width: 450px) {
   .tips li {
     margin: 30px 0px 0px 0px;
+  }
+  .tips {
+    padding: 60px 0px 60px 0px;
+  }
+}
+/*-----------------------------------------------------*/
+.mailing {
+  background: url(../img/RectBG.png) 0 0;
+  padding: 100px 0px 120px 0px;
+}
+.mailing h5 {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  padding: 0px 0px 15px 0px;
+}
+.mailing h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  padding: 0px 0px 60px 0px;
+}
+.mailing__block {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 720px;
+}
+.mailing__list {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+.mailing__list span {
+  padding: 0px 0px 0px 40px;
+}
+.mailing__list li {
+  background: url(../img/subscribe__icon.svg) 0 4px no-repeat;
+  padding: 0px 0px 15px 0px;
+}
+.mailing__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 448px;
+  height: 113px;
+  border: #fff 1px solid;
+}
+.mailing__form {
+  height: 85px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 22px 0px 22px;
+  margin: 0px 15px 0px 15px;
+}
+
+.e-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.submit {
+  width: 159px;
+  height: 45px;
+  background-color: #333333;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/*----------------------------------------------------------*/
+.contacts {
+  color: #333333;
+}
+.contacts__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contacts__item {
+  display: block;
+  width: 250px;
+  padding: 20px 20px 0px;
+}
+.contacts__item span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: solid 1px #333333;
+  padding: 0px 0px 10px 0px;
+  margin: 0px 0px 30px 0px;
+  display: inline-block;
+  width: 250px;
+}
+.contacts__useful-links {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+.contacts__useful-links li {
+  padding: 0px 0px 15px 0px;
+}
+.contacts__useful-links li:last-child {
+  padding: 0px 0px 0px 0px;
+}
+.contacts__payment-cards {
+  padding: 20px 0px 0px 0px;
+}
+.contacts__socials {
+  display: flex;
+  align-items: center;
+  margin: 28px 0 0 0;
+}
+.contacts__socials li {
+  margin: 0px 22px 0px 0px;
+}
+.contact-phones li {
+  padding: 4px 0px 15px 30px;
+}
+.contact-phones__one {
+  background: url(../img/icons/entypo_old-phone.svg) 0 0 no-repeat;
+}
+.contact-phones__two {
+  background: url(../img/icons/entypo_old-phone.svg) 0 0 no-repeat;
+}
+.contact-phones__mail {
+  background: url(../img/icons/entypo_mail.svg) 0 0 no-repeat;
+}
+
+@media (max-width: 1130px) {
+  .contacts__list .contacts__item:last-child {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .contacts__list {
+    padding: 0px 10% 0px;
+    justify-content: center;
   }
 }
