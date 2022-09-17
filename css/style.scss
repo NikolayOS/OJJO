@@ -15,6 +15,11 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
+
+@import "css/select.scss";
+
+
+
 body._lock{
     overflow: hidden;
 }
@@ -29,13 +34,14 @@ body._lock{
         left: 0;
         z-index: 10;
         width: 100%;
+        background: #333333;
 		&__body {
             position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 77px;
-            padding: 25px 0px 0px 5%;
+            height: 111px;
+            padding: 0px 0px 0px 5%;
             &__link{
                 color: #fff;
             }
@@ -634,7 +640,7 @@ body._lock{
 /*----------------------------------------------------------*/
 .contacts {
     color: #333333;
-    
+    margin: 0px 30px 0px;
 
     &__list {
     display: flex;
@@ -668,7 +674,7 @@ body._lock{
         line-height: 150%;
         
         li{
-            padding: 0px 0px 15px 0px;
+            padding: 0px 0px 5px 0px;
         }
         li:last-child{
             padding: 0px 0px 0px 0px;

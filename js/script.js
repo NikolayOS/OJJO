@@ -68,6 +68,24 @@ if(menuLinks.length > 0){
         menuLink.addEventListener('click', onMenuLinkClick);
     });
 }
+//SELECT MENU
+let selectArrow = document.querySelector(".select__icon-img");
+let selectList = document.querySelector(".select__list");
+let selectItems = document.querySelectorAll(".select__item");
+let selectCurrent = document.querySelector(".select__current");
+
+selectArrow.addEventListener('click', function(e){
+    selectArrow.classList.toggle('active');
+    selectList.classList.toggle('active');
+    for(let i = 0; i < selectItems.length; i++){
+        let selectItem = selectItems[i];
+        selectItem.addEventListener('click', function(e){
+            selectCurrent.innerText = selectItem.innerText;
+            selectArrow.classList.remove('active');
+            selectList.classList.remove('active');
+        });
+    }
+});
 //PROKRUTKA PRI KLIKE
 
 // const menuLinks = document.querySelectorAll('.menu__link[data-goto');

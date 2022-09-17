@@ -88,14 +88,15 @@ body._lock {
   left: 0;
   z-index: 10;
   width: 100%;
+  background: #333333;
 }
 .header__body {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 77px;
-  padding: 25px 0px 0px 5%;
+  height: 111px;
+  padding: 0px 0px 0px 5%;
 }
 .header__body__link {
   color: #fff;
@@ -675,6 +676,7 @@ body._lock {
 /*----------------------------------------------------------*/
 .contacts {
   color: #333333;
+  margin: 0px 30px 0px;
 }
 .contacts__list {
   display: flex;
@@ -705,7 +707,7 @@ body._lock {
   line-height: 150%;
 }
 .contacts__useful-links li {
-  padding: 0px 0px 15px 0px;
+  padding: 0px 0px 5px 0px;
 }
 .contacts__useful-links li:last-child {
   padding: 0px 0px 0px 0px;

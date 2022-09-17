@@ -1,0 +1,14 @@
+
+.catalog-wrapp {
+    padding: 120px 15% 0px;
+}
+.catalog-body {
+}
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+		&__item {
+            width: 160px;
+		}
+}
