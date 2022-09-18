@@ -43,15 +43,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     }
 
     &__list {
-        display: block;
-        position: absolute;
-        top: -100%;
-        left: 0;
-        margin: 40px 0px 0px 0px;
+        display: none;
+        position: relative;
         padding: 10px 0px 0px 0px;
     }
     &__list.active{
-        top: 0;
+        display: block;
     }
 
     &__item {
