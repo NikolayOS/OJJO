@@ -40,8 +40,9 @@ body._lock{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 111px;
+            height: 80px;
             padding: 0px 0px 0px 5%;
+            background-color: #333333;
             &__link{
                 color: #fff;
             }
@@ -86,6 +87,7 @@ body._lock{
     width: 216px;
     height: 52px;
     margin: 0px 6%;
+    z-index: 3;
     img{
         display: block;
         width: 216px;
@@ -170,13 +172,15 @@ body._lock{
         width: 100%;
         top: 0;
         left: 0;
-        height: 70px;
+        height: 80px;
+        background-color: #333333;
         z-index: 2;
     }
     .logo {
         position: fixed;
         top: 20px;
         left: 0;
+        z-index: 3;
     }
     .header__list-1{
         flex-wrap: wrap;

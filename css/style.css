@@ -172,15 +172,12 @@ h1, h2, h3, h4, h5, h6 {
   transform: rotate(180deg);
 }
 .select__list {
-  display: block;
-  position: absolute;
-  top: -100%;
-  left: 0;
-  margin: 40px 0px 0px 0px;
+  display: none;
+  position: relative;
   padding: 10px 0px 0px 0px;
 }
 .select__list.active {
-  top: 0;
+  display: block;
 }
 .select__item {
   display: block;
@@ -215,8 +212,9 @@ body._lock {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 111px;
+  height: 80px;
   padding: 0px 0px 0px 5%;
+  background-color: #333333;
 }
 .header__body__link {
   color: #fff;
@@ -253,6 +251,7 @@ body._lock {
   width: 216px;
   height: 52px;
   margin: 0px 6%;
+  z-index: 3;
 }
 .logo img {
   display: block;
@@ -337,13 +336,15 @@ body._lock {
     width: 100%;
     top: 0;
     left: 0;
-    height: 70px;
+    height: 80px;
+    background-color: #333333;
     z-index: 2;
   }
   .logo {
     position: fixed;
     top: 20px;
     left: 0;
+    z-index: 3;
   }
   .header__list-1 {
     flex-wrap: wrap;
