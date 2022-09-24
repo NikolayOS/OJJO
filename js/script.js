@@ -69,7 +69,7 @@ if(menuLinks.length > 0){
     });
 }
 // SELECT MENU
-let selectArrows = document.querySelectorAll(".select__icon-img");
+let selectArrows = document.querySelectorAll(".select__header");
 let selectLists = document.querySelectorAll(".select__list");
 let selectItems = document.querySelectorAll(".select__item");
 let selectCurrents = document.querySelectorAll(".select__current");

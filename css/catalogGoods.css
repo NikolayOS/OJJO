@@ -1,19 +1,15 @@
 .catalog-wrapp {
-  padding: 120px 15% 0px;
-}
-
-.categories {
-  display: flex;
-  justify-content: space-between;
-}
-.categories__item {
-  width: 160px;
+  padding: 120px 0px 0px;
 }
 
 .catalog__item {
+  max-width: 1110px;
+  height: 1678.8px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 .catalog__item__wrapp {
   display: flex;
@@ -21,6 +17,9 @@
   flex-direction: column;
   padding: 95px 0px;
   border-bottom: 1px solid #333333;
+  width: 350px;
+  max-height: 600px;
+  margin: 0 auto;
 }
 .catalog__item__name {
   font-weight: 600;
@@ -68,5 +67,78 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   padding: 15px 0px 0px 0px;
-  margin: 95px auto 150px;
+  margin: 95px auto 0px;
+}
+
+/*--------------------------------------------*/
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 150px 10% 150px;
+}
+.services__text {
+  width: 540px;
+  height: 297px;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.services__text p ._active {
+  opacity: 1;
+}
+.services__list {
+  max-width: 277px;
+  max-height: 297px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.services__item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  max-width: 90px;
+  max-height: 90px;
+  margin: 30px 50px 0px 0px;
+}
+.services__item span {
+  padding: 15px 0px 0px 0px;
+}
+.services__item img {
+  max-width: 60%;
+}
+.services__less {
+  display: none;
+}
+.services__less._active {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.services__more {
+  position: relative;
+  top: 280px;
+  z-index: 2;
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.services__more._active {
+  display: none;
+}
+
+.mailing {
+  color: #fff;
 }

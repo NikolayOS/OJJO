@@ -17,7 +17,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 .select {
     display: block;
-    width: 160px;
     border-bottom: 1px solid #D6D6D6;
     font-weight: 400;
     font-size: 16px;
@@ -46,9 +45,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         display: none;
         position: relative;
         padding: 10px 0px 0px 0px;
+        background-color: #fff;
     }
     &__list.active{
         display: block;
+        position: absolute;
+        z-index: 5;
     }
 
     &__item {
@@ -61,5 +63,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     &__item:hover {
         background-color: #8f8a8a;
         cursor: pointer;
+    }
+}
+.categories {
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+		&__item {
+            width: 160px;
+		}
+}
+
+@media (max-width: 500px) {
+    .categories__item {
+        width: 100px;
     }
 }
