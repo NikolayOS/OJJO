@@ -17,6 +17,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
 @import "../css/select.scss";
+@import "../css/catalogGoods.css";
+@import "../css/goodsPage.css";
 
 
 
@@ -561,6 +563,7 @@ body._lock{
 
 /*-----------------------------------------------------*/
 .mailing {
+    color: #fff;
     background: url(../img/RectBG.png) 0 0;
     padding: 100px 0px 120px 0px;
     h5{

@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /*Обнуление*/
+@import "../css/catalogGoods.css";
+@import "../css/goodsPage.css";
 * {
   padding: 0;
   margin: 0;
@@ -185,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: 0 auto;
   padding: 10px 10px;
-  width: 160px;
+  width: auto;
 }
 .select__item:hover {
   background-color: #8f8a8a;
@@ -193,21 +195,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .categories {
-  max-width: 1110px;
+  max-width: 500px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .categories__item {
-  width: 160px;
+  width: auto;
 }
 
-@media (max-width: 500px) {
-  .categories__item {
-    width: 100px;
-  }
-}
 body._lock {
   overflow: hidden;
 }
@@ -733,6 +730,7 @@ body._lock {
 }
 /*-----------------------------------------------------*/
 .mailing {
+  color: #fff;
   background: url(../img/RectBG.png) 0 0;
   padding: 100px 0px 120px 0px;
 }
