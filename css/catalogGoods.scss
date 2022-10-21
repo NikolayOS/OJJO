@@ -4,6 +4,7 @@ body{
 }
 .catalog-wrapp {
     padding: 120px 0px 0px;
+    margin: 0px 0px 150px 0px;
 }
 .catalog-body {
 }
@@ -28,11 +29,15 @@ body{
         max-height: 600px;
         margin: 0 auto;
     }
+    &__item__wrapp:hover{
+        animation: 500ms forwards scaleCart;
+    }
     &__item__name{
         font-weight: 600;
         font-size: 24px;
         line-height: 140%;
         margin: 0px 0px 15px 0px;
+        color: #333333;
     }
     &__item__price{
         width: 125px;
@@ -52,6 +57,13 @@ body{
         font-size: 16px;
         line-height: 150%;
         margin: 0px 0px 10px 0px;
+        color: #333333;
+    }
+    &__item__brand{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #333333;
     }
     &__item__img{
         width: 280px;
@@ -74,13 +86,12 @@ body{
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 15px 0px 0px 0px;
-    margin: 95px auto 150px;
+    margin: 95px auto 0px;
     cursor: pointer;
 }
 /*--------------------------------------------*/
 .services {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 0px 0px 150px;
@@ -154,4 +165,12 @@ body{
 }
 .mailing{
     color: #fff;
+}
+@keyframes scaleCart{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
 }

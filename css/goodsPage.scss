@@ -8,7 +8,7 @@
 }
 .goodsPhotos {
     max-width: 540px;
-    margin: 50px 0px 120px 0px;
+    margin: 0px 0px 120px 0px;
 		&__main {
             max-width: 540px;
             margin: 0px 0px 30px 0px;
@@ -62,6 +62,13 @@
         }
         span:last-child{
             padding: 0px 0px 0px 25px;
+            white-space: nowrap;
+        }
+        @media (max-width: 393px) {
+            span{
+                padding: 0px 0px 0px 25px;
+                
+            }
         }
     }
     p{
@@ -122,6 +129,22 @@
             color: #333333;
         }
     }
+}
+.services__text__ingoods{
+    max-width: 540px;
+    height: 343px;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    overflow: hidden;
+    padding: 0px 10px 0px;
+}
+.goods-title{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 140%;
+    color: #333333;
 }
 @media (max-width: 1020px) {
     .goodsPageWrapp {

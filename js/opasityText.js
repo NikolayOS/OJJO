@@ -12,7 +12,7 @@ function servicesOpacityText(){
     readMoreButton.addEventListener("click", () => {document.querySelector(".services__text").style.height = "auto"});
     readLessButton.addEventListener("click", readMore);
     readLessButton.addEventListener("click", servicesOpacityText);
-    readLessButton.addEventListener("click", () => {document.querySelector(".services__text").style.height = "297px"});
+    readLessButton.addEventListener("click", () => {document.querySelector(".services__text__ingoods") ? (document.querySelector(".services__text__ingoods").style.height = "343px") : (document.querySelector(".services__text").style.height = "297px")});
     function readMore(){
         let services = document.querySelectorAll(".services p");
         services.forEach(element => {
